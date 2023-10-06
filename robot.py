@@ -9,8 +9,8 @@ class DriveBot:
         self.motor_speed = new_speed
         self.direction = new_direction
     
-    def adjuect_sensor(self, new_sensor_range):
-        pass
+    def adjust_sensor(self, new_sensor_range):
+        self.sensor_range = new_sensor_range
 
 robot_1 = DriveBot()
 robot_1.motor_speed = 5
