@@ -1,9 +1,9 @@
 # Define the DriveBot class here!
 class DriveBot:
     def __init__(self, motor_speed=0, direction=180, sensor_range=10):
-        self.motor_speed = 0
-        self.direction = 0
-        self.sensor_range = 0
+        self.motor_speed = motor_speed
+        self.direction = direction
+        self.sensor_range = sensor_range
     
     def control_bot(self, new_speed, new_direction):
         self.motor_speed = new_speed
@@ -19,6 +19,15 @@ robot_1.sensor_range = 10
 
 robot_1.control_bot(10, 180)
 robot_1.adjust_sensor(20)
-print(robot_1.motor_speed)
-print(robot_1.direction)
-print(robot_1.sensor_range)
+
+robot_2 = DriveBot(35, 75, 25)
+
+#Create robot_2 here!
+
+# print(robot_2.motor_speed)
+# print(robot_2.direction)
+# print(robot_2.sensor_range)
+
+#print(robot_1.motor_speed)
+#print(robot_1.direction)
+#print(robot_1.sensor_range)
