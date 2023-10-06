@@ -1,6 +1,6 @@
 # Define the DriveBot class here!
 class DriveBot:
-    def __init__(self, motor_speed, direction, sensor_range):
+    def __init__(self, motor_speed=0, direction=180, sensor_range=10):
         self.motor_speed = 0
         self.direction = 0
         self.sensor_range = 0
