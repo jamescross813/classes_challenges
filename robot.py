@@ -7,9 +7,9 @@ class DriveBot:
 
 
 robot_1 = DriveBot()
-robot_1.motor_speed(5)
-robot_1.direction(90)
-robot_1.sensor_range(10)
-# print(robot_1.motor_speed)
-# print(robot_1.direction)
-# print(robot_1.sensor_range)
+robot_1.motor_speed = 5
+robot_1.direction = 90
+robot_1.sensor_range = 10
+print(robot_1.motor_speed)
+print(robot_1.direction)
+print(robot_1.sensor_range)
