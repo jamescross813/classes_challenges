@@ -24,9 +24,9 @@ robot_2 = DriveBot(35, 75, 25)
 
 #Create robot_2 here!
 
-# print(robot_2.motor_speed)
-# print(robot_2.direction)
-# print(robot_2.sensor_range)
+print(robot_2.motor_speed)
+print(robot_2.direction)
+print(robot_2.sensor_range)
 
 #print(robot_1.motor_speed)
 #print(robot_1.direction)
