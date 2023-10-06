@@ -28,10 +28,12 @@ robot_2 = DriveBot(35, 75, 25)
 robot_3 = DriveBot(20, 60, 10)
 
 # Change the latitude, longitude, and all_disabled values for all three robots using only three lines of code!
-
-# print(robot_1.latitude)
-# print(robot_2.longitude)
-# print(robot_3.all_disabled)
+DriveBot.latitude = -50.0
+DriveBot.longitude = 50.0
+DriveBot.all_disabled = True
+print(robot_1.latitude)
+print(robot_2.longitude)
+print(robot_3.all_disabled)
 
 # print(robot_2.motor_speed)
 # print(robot_2.direction)
