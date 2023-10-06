@@ -10,8 +10,8 @@ class DriveBot:
         self.motor_speed = motor_speed
         self.direction = direction
         self.sensor_range = sensor_range
-        self.id = DriveBot.robot_count + 1
-        
+        DriveBot.robot_count += 1
+        self.id = DriveBot.robot_count
     
     def control_bot(self, new_speed, new_direction):
         self.motor_speed = new_speed
