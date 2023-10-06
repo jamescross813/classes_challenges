@@ -5,8 +5,9 @@ class DriveBot:
         self.direction = 0
         self.sensor_range = 0
     
-    def control_bot(new_speed, new_direction):
-        pass
+    def control_bot(self, new_speed, new_direction):
+        self.motor_speed = new_speed
+        self.direction = new_direction
 
 robot_1 = DriveBot()
 robot_1.motor_speed = 5
