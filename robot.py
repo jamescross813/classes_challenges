@@ -2,7 +2,8 @@
 class DriveBot:
 
     all_disabled =False
-    
+    latitude = -999999
+    longitude = -999999
     def __init__(self, motor_speed=0, direction=180, sensor_range=10):
         self.motor_speed = motor_speed
         self.direction = direction
