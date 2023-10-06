@@ -25,12 +25,17 @@ robot_1.control_bot(10, 180)
 robot_1.adjust_sensor(20)
 
 robot_2 = DriveBot(35, 75, 25)
+robot_3 = DriveBot(20, 60, 10)
 
-#Create robot_2 here!
+# Change the latitude, longitude, and all_disabled values for all three robots using only three lines of code!
 
-print(robot_2.motor_speed)
-print(robot_2.direction)
-print(robot_2.sensor_range)
+# print(robot_1.latitude)
+# print(robot_2.longitude)
+# print(robot_3.all_disabled)
+
+# print(robot_2.motor_speed)
+# print(robot_2.direction)
+# print(robot_2.sensor_range)
 
 #print(robot_1.motor_speed)
 #print(robot_1.direction)
